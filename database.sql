@@ -1,5 +1,7 @@
 use DBCrud
 
+create database DBCrud
+
 create table employeers (
 id_employeer int primary key identity,
 name varchar(50),
